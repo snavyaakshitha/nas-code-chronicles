@@ -5,7 +5,7 @@
   "description": "Personal Website of Navya Akshitha Sangishetty",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snavyaakshitha/nas-main.git"
+    "url": "git+https://github.com/snavyaakshitha/nas-code-chronicles"
   },
   "author": "navya akshitha sangishetty",
   "license": "MIT",
@@ -87,9 +87,9 @@
     "typescript": "^5.0.4",
     "windicss-webpack-plugin": "^1.7.8"
   },
-  "homepage": "https://github.com/snavyaakshitha/nas-main#readme",
+  "homepage": "https://github.com/snavyaakshitha/nas-code-chronicles#readme",
   "main": "next-sitemap.js",
   "bugs": {
-    "url": "https://github.com/snavyaakshitha/nas-main/issues"
+    "url": "https://github.com/snavyaakshitha/nas-code-chronicles/issues"
   }
 }

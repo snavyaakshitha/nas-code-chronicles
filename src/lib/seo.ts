@@ -14,26 +14,21 @@ export function useSeoProps(
 	return {
 		title,
 		description,
-		canonical: `https://nuro.dev/${router.asPath}`,
+		canonical: `https://nas-code-chronicles.vercel.app/${router.asPath}`,
 		openGraph: {
 			title,
 			description,
-			site_name: 'nuro',
-			url: `https://nuro.dev/${router.asPath}`,
+			site_name: 'nas-code-chronicles',
+			url: `https://nas-code-chronicles.vercel.app/${router.asPath}`,
 			type: 'website',
 			images: [
 				{
-					url: 'https://nuro.dev/banner.png',
+					url: '/banner.png',
 					alt: description,
 					width: 1280,
 					height: 720,
 				},
 			],
-		},
-		twitter: {
-			cardType: 'summary_large_image',
-			handle: '@nurodev',
-			site: '@nurodev',
 		},
 		...props,
 	};
